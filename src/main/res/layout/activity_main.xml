@@ -9,40 +9,38 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Вопросы??"
-        android:textColor="@color/white"
-        android:textSize="20sp"
+        android:text="Вопросы???"
+        android:textColor="#FBFBFB"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.592" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <FrameLayout
-        android:id="@+id/Frag"
+        android:id="@+id/Frag1"
         android:layout_width="409dp"
-        android:layout_height="419dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        android:layout_height="348dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
     </FrameLayout>
 
-    <Button
-        android:id="@+id/BtmFrag2"
-        android:layout_width="196dp"
-        android:layout_height="85dp"
-        android:backgroundTint="#BD3C3C"
-        android:text="Button"
+    <FrameLayout
+        android:id="@+id/Frag2"
+        android:layout_width="409dp"
+        android:layout_height="347dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.764" />
+        app:layout_constraintTop_toBottomOf="@+id/Frag1"
+        app:layout_constraintVertical_bias="1.0">
+
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
